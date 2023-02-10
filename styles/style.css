@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 5% 10%;
+}
+
+.xxx{
+    height: 40%;
+    width: 100%;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.title-2{
+    text-align: center;
+}
+
+.img-2 img{
+    height: 250px;
+    width: 100%;
+}
+
+nav{
+    margin: 2% 0;
+    text-align: right;
+}
+
+.xxx-2{
+    height: 0vh;
+    width: 100%;
+}
+
+.info{
+    margin-left: 20%;
+    margin-top: 2%;
+    text-align:justify;
+}
+
+.info div{
+    margin: 2% 0;
+}
