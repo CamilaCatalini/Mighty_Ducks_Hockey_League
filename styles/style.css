@@ -5,19 +5,32 @@
 }
 
 body{
-    margin: 5% 10%;
+    margin: 1% 10%;
+    background-color: black;
+    color: white;
 }
 
-.xxx{
-    height: 40%;
+header{
+    height: 20%;
     width: 100%;
+    
 }
 
-.title{
+header div{
+    display: flex;
+    align-items: center;
+}
+
+#title-page{
+    padding: 0 4%;
+    height: 50px;
+    width: 70%;
     font-size: 2rem;
+    display: inline-block;
 }
 
-.title-2{
+#title-info{
+    padding: 2% 0;
     text-align: center;
 }
 
@@ -31,17 +44,25 @@ nav{
     text-align: right;
 }
 
-.xxx-2{
-    height: 0vh;
+nav a{
+    color: white;
+}
+
+a:hover{
+    color: gold;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+}
+
+#info div{
+    padding: 2% 0;
+    padding-left: 5%;
+    display: inline-block;
+}
+
+#info div div  {
     width: 100%;
-}
-
-.info{
-    margin-left: 20%;
-    margin-top: 2%;
-    text-align:justify;
-}
-
-.info div{
-    margin: 2% 0;
 }
