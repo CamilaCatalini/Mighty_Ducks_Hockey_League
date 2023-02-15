@@ -66,3 +66,107 @@ a:hover{
 #info div div  {
     width: 100%;
 }
+
+/** ABOUT **/
+
+.info-about h3{
+    color: darkseagreen;
+}
+
+/** GAME INFORMATION **/
+
+#t-games{
+    padding: 3% 0;
+}
+
+#t-games p{
+    padding: 1% 0;
+    font-size: 1.2rem;
+}
+
+
+table {
+    width: 100%;
+    border: #b2b2b2 1px solid;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    border: #b2b2b2 1px solid;
+ }
+
+ .t-back-color{
+    background-color:white;
+    color: black;
+ }
+
+ .t-back-color-1 td{
+    background-color:darkseagreen;
+    color: black;
+ }
+
+ .t-back-color-2{
+    background-color: gold;
+    color: black;
+ }
+
+ #f-games{
+    padding: 2% 0;
+    font-size: 1.2rem;
+ }
+
+ #f-games p{
+    padding: 1% 0;
+}
+
+#contact{
+    width: 100%;
+}
+
+#phone{
+    width: 49%;
+    display: inline-block;
+}
+
+#mail{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+#mail a{
+    color: gold;
+}
+
+/** RULES **/
+
+#info-rules div{
+    padding: 2% 0;
+}
+
+#info-rules p{
+    padding: 1% 0;
+}
+
+#info-rules strong{
+    color: darkseagreen;
+}
+
+
+#t-rules{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+
+#t-rules strong{
+    color: darkseagreen;
+}
+
+.sangria{
+    text-indent: 30px
+}
+
+UL{
+    padding: 0 5%;
+}
