@@ -1,7 +1,8 @@
 *{
-    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,58 +14,64 @@ body{
 header{
     height: 20%;
     width: 100%;
-    
-}
-
-header div{
-    display: flex;
-    align-items: center;
 }
 
 #title-page{
-    padding: 0 4%;
-    height: 50px;
     width: 70%;
     font-size: 2rem;
     display: inline-block;
+    
 }
 
 #title-info{
-    padding: 2% 0;
+    color: black;
     text-align: center;
+    background-color: gold;
 }
 
 .img-2 img{
-    height: 250px;
+    display: inline-block;
     width: 100%;
 }
 
 nav{
-    margin: 2% 0;
+    position: relative;
+    top: 10px;
+    right: 10px;
     text-align: right;
 }
 
 nav a{
+    text-decoration: none;
+    padding: 0.8%;
     color: white;
+    background-color: black;
+    border: 1px solid gold;
 }
 
 a:hover{
     color: gold;
 }
 
-#info{
-    display: flex;
-    align-items: center;
-}
-
-#info div{
-    padding: 2% 0;
-    padding-left: 5%;
+#logo{   
+    padding: 3% 0;
+    width: 10%;
     display: inline-block;
 }
 
-#info div div  {
+#logo img{
     width: 100%;
+    height: 100%;
+}
+
+#info {
+    padding: 3% 5%;
+    width: 89.6%;
+    float: right;
+}
+
+#info div{
+    margin: 1% 0;
 }
 
 /** ABOUT **/
@@ -167,6 +174,41 @@ table {
     text-indent: 30px
 }
 
-UL{
+ul{
     padding: 0 5%;
+}
+
+/** REGISTRATION FORM **/
+
+label{
+    width: 100%;
+    margin: 2% 0;
+}
+
+#personal-info input, #permission input{
+    width: 100%;
+}
+
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 1px;
+    border-bottom: 2px solid #333;
+ }
+
+ input:focus {
+    color: white;
+ }
+
+ p strong{
+    font-size: 1.2rem;
+}
+
+
+/** GAME INFORMATION - Maps **/
+
+div iframe{
+    width: 100%;
+    height: 100%;
 }
